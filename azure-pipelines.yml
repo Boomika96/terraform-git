@@ -18,7 +18,7 @@ steps:
     backendAzureRmResourceGroupName: 'tfRGM'
     backendAzureRmStorageAccountName: 'terrafstorageacc'
     backendAzureRmContainerName: 'tfcontainers'
-    backendAzureRmKey: 'prod.terraform.tfstate'
+    backendAzureRmKey: 'pro.newterraform.tfstate'
 - task: TerraformTask@5
   inputs:
     provider: 'azurerm'
