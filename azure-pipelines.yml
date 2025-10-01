@@ -19,6 +19,7 @@ steps:
     backendAzureRmStorageAccountName: 'terrafstorageacc'
     backendAzureRmContainerName: 'tfcontainers'
     backendAzureRmKey: 'pro.newterraform.tfstate'
+    args: '-reconfigure'
 - task: TerraformTask@5
   inputs:
     provider: 'azurerm'
