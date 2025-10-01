@@ -10,9 +10,6 @@ pool:
   name: Default
 
 steps:
-- task: TerraformInstaller@1
-  inputs:
-    terraformVersion: 'v1.13.3'
 - task: TerraformTask@5
   inputs:
     provider: 'azurerm'
